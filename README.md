@@ -4,7 +4,16 @@ Ripped off from Leaflet gradient js.
 
 ## Usage
 
-Just use L.tileLayer.Mask(url, options) instead of L.tileLayer(url, options).
+Just use :
+
+```
+L.tileLayer.Mask(url, options) 
+```
+instead of default :
+
+```
+L.tileLayer(url, options).
+```
 
 ## Options
 grayscale : boolean - do grayscaling conversion or not
