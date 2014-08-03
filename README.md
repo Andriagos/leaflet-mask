@@ -16,8 +16,10 @@ L.tileLayer(url, options).
 ```
 
 ## Options
+```
 grayscale : boolean - do grayscaling conversion or not
 maskColor : rgba - the mask color in rgba format with transparency
+```
 
 ## License
 do whatever you wish with it and dont forget to thansk Leaflet Gradient js author.
